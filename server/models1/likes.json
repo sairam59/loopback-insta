@@ -1,0 +1,28 @@
+{
+  "name": "likes",
+  "plural": "likes",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "like_id": {
+      "type": "number",
+      "required": true
+    },
+    "likeTime": {
+      "type": "date"
+    },
+    "post_id": {
+      "type": "number"
+    },
+    "user_id": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

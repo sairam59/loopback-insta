@@ -1,0 +1,30 @@
+{
+  "name": "comments",
+  "plural": "comments",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "comment_id": {
+      "type": "number"
+    },
+    "commentDate": {
+      "type": "date"
+    },
+    "post_id": {
+      "type": "number"
+    },
+    "user_id": {
+      "type": "number"
+    },
+    "commentsDesc": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

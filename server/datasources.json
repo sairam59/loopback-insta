@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "instasai": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "mysql://root:123Root@@localhost/insta_sai",
+    "database": "insta_sai",
+    "password": "123Root@",
+    "name": "instasai",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
